@@ -1,0 +1,28 @@
+[0.677s] Invoking command in '/home/zen/ros2_ws/src/my_ros2_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zen/ros2_ws/build/my_ros2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/zen/ros2_ws/build/my_ros2_pkg/build install --record /home/zen/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data
+[0.883s] running egg_info
+[0.895s] writing ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/PKG-INFO
+[0.895s] writing dependency_links to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/dependency_links.txt
+[0.896s] writing entry points to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/entry_points.txt
+[0.896s] writing requirements to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/requires.txt
+[0.896s] writing top-level names to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/top_level.txt
+[0.927s] reading manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.928s] running build
+[0.928s] running build_py
+[0.928s] copying my_ros2_pkg/publisher_node.py -> /home/zen/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.928s] copying my_ros2_pkg/subscriber_node.py -> /home/zen/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.929s] running install
+[0.935s] running install_lib
+[0.952s] copying /home/zen/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/publisher_node.py -> /home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg
+[0.952s] copying /home/zen/ros2_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/subscriber_node.py -> /home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg
+[0.952s] byte-compiling /home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg/publisher_node.py to publisher_node.cpython-312.pyc
+[0.953s] byte-compiling /home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg/subscriber_node.py to subscriber_node.cpython-312.pyc
+[0.953s] running install_data
+[0.954s] running install_egg_info
+[0.971s] removing '/home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.971s] Copying ../../build/my_ros2_pkg/my_ros2_pkg.egg-info to /home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages/my_ros2_pkg-0.0.0-py3.12.egg-info
+[0.972s] running install_scripts
+[1.074s] Installing publisher script to /home/zen/ros2_ws/install/my_ros2_pkg/lib/my_ros2_pkg
+[1.074s] Installing subscriber script to /home/zen/ros2_ws/install/my_ros2_pkg/lib/my_ros2_pkg
+[1.074s] writing list of installed files to '/home/zen/ros2_ws/build/my_ros2_pkg/install.log'
+[1.099s] Invoked command in '/home/zen/ros2_ws/src/my_ros2_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zen/ros2_ws/build/my_ros2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zen/ros2_ws/install/my_ros2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/zen/ros2_ws/build/my_ros2_pkg/build install --record /home/zen/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data
